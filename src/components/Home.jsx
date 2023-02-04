@@ -7,13 +7,13 @@ import Glass from './441-812-magnifier-animation-for-search-bars.riv'
 import ConnectWallet from './ConnectWallet';
 
 
-
 const Home = () => {
 
-  //const handleClick = () => {
-    //history.push('/Application');
-  //};}
+  
+
   return (
+   
+  
 <div className="h-screen bg-[#222629]">
   <nav className="p-4 flex items-center justify-between">
     <div className="w-3/4 flex justify-start">
@@ -42,7 +42,7 @@ const Home = () => {
   <div className="relative flex items-center justify-center h-full bg-[#222629]">
     
    
-  <button className="cyberpunk-button">
+  <button className="cyberpunk-button" onClick={handleClick}>
    Launch App
   </button>
   <div className="card text-xl" style={{marginBottom:'480px',marginRight:'1000px'}}>
@@ -104,4 +104,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
