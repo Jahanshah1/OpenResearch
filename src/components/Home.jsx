@@ -10,6 +10,9 @@ import ConnectWallet from './ConnectWallet';
 const Home = () => {
 
   
+  const handleClick = () => {
+    window.location.assign('http://localhost:3000/Application')
+  }
 
   return (
    

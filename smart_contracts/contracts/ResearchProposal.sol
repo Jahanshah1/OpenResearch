@@ -32,4 +32,3 @@ contract ResearchProposal {
     }
 }
 
-//HTTP provider quicknode : https://orbital-convincing-diagram.matic-testnet.discover.quiknode.pro/da69caeb5247aa28900c44faece3cf4e7b814efd/
