@@ -1,16 +1,21 @@
-const { HardhatRuntimeEnvironment } = require("hardhat/types");
-const { deployContract } = require("hardhat/deploy");
+const { ethers } = require("hardhat");
 
-async function main(hre: HardhatRuntimeEnvironment) {
-  const ResearchProposal = await deployContract(hre, "ResearchProposal", {
-    gasPrice: 20000000000,
-    gasLimit: 6721975,
-    endpoint: "https://mumbai.quicknode.com",
-  });
+async function main() {
+  const ResearchProposalContract = await ethers.getContractFactory("ResearchProposal");
 
-  console.log("ResearchProposal deployed to:", ResearchProposal.address);
+  const deployedResearchProposalContract = await ResearchProposalContract.deploy();
+
+  await deployedResearchProposalContract.deployed();
+
+  console.log("ResearchProposal Contract Address:", deployedResearchProposalContract.address);
 }
 
-module.exports = {
-  main,
-};
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+
+
+//contract address (deployed on mumbai) -  0x528268f80FE98669D712f524aA4a66141218bbc5
