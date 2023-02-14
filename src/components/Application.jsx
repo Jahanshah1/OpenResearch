@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
-import { Web3Storage } from 'web3.storage'
+import { Web3Storage } from 'web3.storage/dist/bundle.esm.min.js'
+import Proposals from './Proposals'
+
 
 function Application() {
   const [files, setFiles] = useState([]);
@@ -64,6 +66,7 @@ function Application() {
                       ))}
                     </ul>
                 </div>
+                {/*<Proposals />*/}
             </div>
 
             <div className="w-1/2 text-white mt-5">
