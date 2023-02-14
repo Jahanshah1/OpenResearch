@@ -92,7 +92,7 @@ const Home = () => {
 
     <h1>About</h1>
     <p>
-      This platform is created by the founder of Synapsed Infotech Pvt Ltd. Jahan Shah
+      Created by Jahan Shah
     </p>
     
     </div>

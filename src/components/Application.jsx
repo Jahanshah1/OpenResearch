@@ -72,15 +72,41 @@ function Application() {
             </div>
 
             <div className="w-1/2 text-white mt-5">
-              <div className='text-3xl' style={{marginLeft:'300px'}}>Instructions</div>
-              <li>
 
-              </li>
-                <div class="typewriter" style={{marginLeft:'355px', marginTop:'365px'}}>
+              <div>
+               
+              </div>
+              
+             <div className='text-3xl font-poppins' style={{marginLeft:'350px',marginTop:'100px'}}>Instructions</div>
+              <li style={{marginTop:'18px', marginLeft:'200px'}}>
+                  drag & drop or click on the box provided to upload your file
+                  <li>
+                    Once selected the file, upload it
+                  </li>
+                  <li>
+                      After it's successfully uploaded you will get The CID of it
+                  </li>
+                  <li>
+                      Store the CID somewhere to view and share your research paper
+                  </li>
+
+                      </li> 
+
+
+
+
+
+
+
+ 
+
+
+
+                <div class="typewriter" style={{marginLeft:'355px', marginTop:'238px'}}>
                     <div class="slide"><i></i></div>
                     <div class="paper"></div>
                     <div class="keyboard"></div>
-                </div>
+                      </div>
                 
             </div>
         </div>
