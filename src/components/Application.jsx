@@ -4,9 +4,11 @@ import { Web3Storage } from 'web3.storage/dist/bundle.esm.min.js'
 import Proposals from './Proposals'
 
 
+
 function Application() {
   const [files, setFiles] = useState([]);
   const [loading, setLoading] = useState(false);
+
   // Construct with token and endpoint
   const client = new Web3Storage({ token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDZGMEVFNzVDOTAyRThFQjAzMDk4OTdCYThkMEJlNzU1Y0UzNTBmOEYiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NzQyNDE4MjMzNTksIm5hbWUiOiJPcGVuUmVzZWFyY2gifQ._cWizBU7_2dkxy-4GLjpgMS65n5QSHwyVlSYREAJ_YQ'});
   const onDrop = async acceptedFiles => {
@@ -70,12 +72,16 @@ function Application() {
             </div>
 
             <div className="w-1/2 text-white mt-5">
-              
+              <div className='text-3xl' style={{marginLeft:'300px'}}>Instructions</div>
+              <li>
+
+              </li>
                 <div class="typewriter" style={{marginLeft:'355px', marginTop:'365px'}}>
                     <div class="slide"><i></i></div>
                     <div class="paper"></div>
                     <div class="keyboard"></div>
                 </div>
+                
             </div>
         </div>
     </div>
