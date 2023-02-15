@@ -11,7 +11,7 @@ const Home = () => {
 
   
   const handleClick = () => {
-    window.location.assign('http://localhost:3000/Application')
+    window.location.assign('https://open-research-jahanshah1.vercel.app/Application')
   }
 
   return (
