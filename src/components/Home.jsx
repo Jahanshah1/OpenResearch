@@ -26,9 +26,13 @@ const Home = () => {
 
   
 
-      <div className="text-6xl font-[poppins] text-white " style={{marginLeft:'80px', marginTop:'100px'}}>
+      <div className="text-6xl font-[poppins] text-white sm:text-red" style={{marginLeft:'80px', marginTop:'100px'}}>
         First decentralised platform for publishing research proposals on the blockchain
       </div>
+    
+
+
+
   
 </div>
 

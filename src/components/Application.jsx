@@ -79,12 +79,15 @@ function Application() {
               
              <div className='text-3xl font-poppins' style={{marginLeft:'350px',marginTop:'100px'}}>Instructions</div>
               <li style={{marginTop:'18px', marginLeft:'200px'}}>
-                  drag & drop or click on the box provided to upload your file
+                  Drag & drop or click on the box provided to upload your file
                   <li>
                     Once selected the file, upload it
                   </li>
                   <li>
                       After it's successfully uploaded you will get The CID of it
+                  </li>
+                  <li>
+                    You will also get an option to view the file 
                   </li>
                   <li>
                       Store the CID somewhere to view and share your research paper
