@@ -26,10 +26,20 @@ const Home = () => {
 
   
 
-      <div className="text-6xl font-[poppins] text-white sm:text-red" style={{marginLeft:'80px', marginTop:'100px'}}>
+      <div className="text-6xl font-[poppins] text-white hidden sm:block" style={{marginLeft:'80px', marginTop:'100px'}}>
         First decentralised platform for publishing research proposals on the blockchain
+        <div className='sm:block md:hidden lg:hidden xl:hidden'>
+          jfndm 
+        </div>
       </div>
-    
+      <div className='sm:block md:hidden lg:hidden xl:hidden text-3xl text-white font-poppins flex justify-center' style={{marginTop:'30px',}}>
+          First Dapp for publishing research papers on the blockchain.
+          <br />
+          <br />
+          Please use a desktop :)
+        </div>
+     
+
 
 
 
@@ -42,17 +52,25 @@ const Home = () => {
     <div className="w-1/4 flex justify-end">
     </div>
   </nav>
-  
+
+
+     
+
+
   {/*<div className="body-right-div flex justify-end font-[poppins] text-white bg:bg-1" style={{marginRight:'70px', marginTop:'20px'}}>
  hgghc jhgg bhgh kjhhub
   </div>*/}
   <div className="relative flex items-center justify-center h-full bg-[#222629]">
-    
-   
-  <button className="cyberpunk-button" onClick={handleClick}>
+ 
+  <div className="sm:block md:hidden lg:hidden xl:hidden text-white" style={{marginBottom:'480px',marginLeft:'50px'}}>
+        <h2>Unfortunately this App is not compatible with smartphones at the moment</h2>
+
+      </div>
+      
+  <button className="cyberpunk-button hidden sm:block" onClick={handleClick}>
    Launch App
   </button>
-  <div className="card text-xl" style={{marginBottom:'480px',marginRight:'1000px'}}>
+  <div className="card text-xl hidden sm:block" style={{marginBottom:'480px',marginRight:'1000px'}}>
     <div className="align">
         <span className="red"></span>
         <span className="yellow"></span>
@@ -69,7 +87,7 @@ const Home = () => {
     </div>
 
 
-    <div className="card text-xl" style={{marginBottom:'480px', marginRight:'550px'}}>
+    <div className="card text-xl hidden sm:block" style={{marginBottom:'480px', marginRight:'550px'}}>
     <div className="align">
         <span className="red"></span>
         <span className="yellow"></span>
@@ -85,9 +103,9 @@ const Home = () => {
     </p>
 
     </div>
+    
 
-
-    <div className="card text-xl" style={{marginBottom:"480px",marginRight:'100px'}}>
+    <div className="card text-xl hidden sm:block" style={{marginBottom:"480px",marginRight:'100px'}}>
     <div className="align">
         <span className="red"></span>
         <span className="yellow"></span>
@@ -100,6 +118,7 @@ const Home = () => {
     </p>
     
     </div>
+   
 
 
 
