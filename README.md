@@ -25,3 +25,21 @@ Open Research is a decentralised platform made to share research proposals/data 
 link - https://mumbai.polygonscan.com/address/0x528268f80FE98669D712f524aA4a66141218bbc5
 contract address - 0x528268f80FE98669D712f524aA4a66141218bbc5
 
+### demo video link 
+https://www.youtube.com/watch?v=VaIpyeQnyG0
+
+### run locally 
+Clone the project 
+```bash 
+git clone https://github.com/Jahanshah1/OpenResearch
+```
+Install dependencies 
+```bash 
+npm i 
+```
+start localhost 
+```bash 
+npm start
+```
+If there are any problems please contact me shahjahanrajan@gmail.com
+
