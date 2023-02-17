@@ -43,3 +43,5 @@ npm start
 ```
 If there are any problems please contact me shahjahanrajan@gmail.com
 
+## Future plans 
+Future plans are mentioned in the docs, please refer to them :)
