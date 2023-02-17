@@ -21,14 +21,14 @@ Open Research is a decentralised platform made to share research proposals/data 
 ### Visualised structure of the smart contract 
 <img width="449" alt="Screenshot 2023-02-06 at 6 42 23 PM" src="https://user-images.githubusercontent.com/92823408/219698936-096d09f6-e8a9-4dee-b4ba-31bc309530b7.png">
 
-### contract deployed on Polygon Mumbai testnet 
+## contract deployed on Polygon Mumbai testnet 
 link - https://mumbai.polygonscan.com/address/0x528268f80FE98669D712f524aA4a66141218bbc5
 contract address - 0x528268f80FE98669D712f524aA4a66141218bbc5
 
-### demo video link 
+## demo video link 
 https://www.youtube.com/watch?v=VaIpyeQnyG0
 
-### run locally 
+## run locally 
 Clone the project 
 ```bash 
 git clone https://github.com/Jahanshah1/OpenResearch
